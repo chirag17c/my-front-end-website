@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Join us</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <script src="js/index.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <div class="heading">JOIN US</div>
+
+            <section class="glass">
+                <div class="form">
+                    <p>Name  <br> <br>
+                    Password  <br> <br>
+                    Confirm Password  <br> <br>
+                    Phone Number  <br> <br>
+                    Email ID <br> <br>
+                    Continent <br><br>
+
+                    Gender <br> <input type="checkbox" class="in">
+                    Female <input type="checkbox" class="in">
+                    Male <input type="checkbox" class="in">
+                    Others <br> <br>
+
+                    Date of Birth <br> <br>
+                    Languages Known <br>
+                    <input type="checkbox" class="in">English
+                    <input type="checkbox" class="in">Telegu
+                    <input type="checkbox" class="in">Hindi
+                    <input type="checkbox" class="in">Chinese
+                    </p>
+
+                    <p>
+                        
+                        <button type="submit" onclick="checkage()">Submit</button>
+                        <button type="reset"  onclick="reset()">Reset</button>
+                        <h1 id = "demo"></h1>
+                    </p>
+                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <br>
+                    <a href="login/login.html">Already registered? Log in here</a></p>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" class="in" name="Name"> <br> <br> <br> <br>
+                    <input type="password" class="in" name="Pass"> <br> <br> <br> <br>
+                    <input type="password" class="in" name="CPass"> <br> <br> <br> <br>
+                    <input type="number" class="in" name="Ph_no"> <br> <br> <br> <br>
+                    <input type="text" class="in" name="email"> <br> <br> <br> <br>
+                    <input type="text" class="in" name="continent" list="cityname">
+                    <datalist id="cityname">
+                        <option value="Asia">
+                        <option value="Europe">
+                        <option value="America">
+                    </datalist>
+                    
+                    <br> <br> <br> <br>
+                    <br> <br> <br> <br><br> <br>
+                    <input type="date" class="in" name="date" id="DOB">
+                    
+                </div>
+            </section>
+        </main>
+        
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </body>
+</html>

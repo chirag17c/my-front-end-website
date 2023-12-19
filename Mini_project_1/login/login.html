@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login.css">
+
+        <script>
+            function welcome()
+            {
+                var uname = document.getElementById("uname").value;
+                var pass  = document.getElementById("pass").value;
+                
+                if((uname == null && pass == null) || (uname == '' && pass == ''))
+                {   alert("Do you really think you can login\nwithout the credentials");    }
+                else if(uname == null || uname == '')
+                {   alert("Please enter the username");  }
+                else if(pass == null || pass == '')
+                {   alert("Password is required");  }
+                else
+                {    alert("Welcome");      }
+            }
+        </script> 
+    </head>
+
+    <body>
+        <pre class="align">
+            Login <br>
+    Username   <input type="text" placeholder="Username" id="uname" class="box"> <br>
+    Password   <input type="password" placeholder="Password" id="pass" class="box"> <br>
+            <button type="submit" onclick="welcome()">Submit</button> <br>
+<marquee behavior="scroll" direction="left to right"><a href="../index.html">Not Regsitered yet?</a></marquee> 
+        </pre>
+    </body>
+</html>

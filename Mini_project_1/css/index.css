@@ -1,0 +1,131 @@
+body
+{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass
+{
+    background: white;
+    min-width: 100vh;
+    min-height: 130vh;
+
+    position: absolute;
+    top: 13%;
+
+    background: linear-gradient(to left bottom,
+    rgba(212, 56, 56, 0.632),
+    rgba(135, 63, 9, 0.351)
+    );
+
+    backdrop-filter: blur(6px);
+    border-radius: 2rem;
+    z-index: 1;
+
+    display: flex;
+    justify-content: end;
+}
+
+.heading
+{
+    min-width: 100%;
+    min-height: 6vh;
+    background: linear-gradient(to right bottom,
+    rgba(212, 56, 56, 0.9),
+    rgba(135, 63, 9, 0.5)
+    );
+
+    backdrop-filter: blur(2px);
+
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px;
+    border-radius: 2rem;
+    position: relative;
+
+    z-index: 1;
+}
+
+.form
+{
+    position: absolute;
+    left: 80px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-weight: 500;
+}
+
+.in
+{
+    border: 1px solid black;
+    min-width: 40px;
+    border-radius: 2rem;
+    min-height: 22px;
+}
+
+.inputs
+{
+    position: absolute;
+    right: 50px;
+    top: 33px;
+}
+
+a:hover
+{
+    color: aquamarine;
+    font-size: 50px;
+}
+
+
+.circle1, .circle2, .circle3
+{
+    background: white;
+    
+    background: linear-gradient(to top right,
+    rgba(222, 30, 23, 0.7),
+    rgba(196, 53, 14, 0.5),
+    rgba(216, 115, 8, 0.366)
+    );
+
+    backdrop-filter: blur(6px);
+
+    height: 20rem;
+    width: 20rem;
+
+    border-radius: 50%;
+
+        position: absolute;
+}
+
+.circle1
+{
+    right: 200px;
+    top: 40px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 40%;
+}
+
+.circle2
+{
+    top: 760px;
+    right: 70px;
+    backdrop-filter: blur(2px);
+}
+
+.circle3
+{
+    top: 400px;
+    left: 160px;
+    width: 25rem;
+}

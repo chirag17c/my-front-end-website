@@ -1,0 +1,18 @@
+body
+{
+    background-color: rgba(47, 44, 44, 0.695);
+}
+
+.center
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 80px;
+}
+
+.center:hover 
+{
+    text-shadow: 3px 8px 8px lime;
+}
